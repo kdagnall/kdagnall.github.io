@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatiable" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Need advertising? Have the perfect job for me? Something to promote? Baby, I'm your man.">
+<title>Atlanta Advertising, Social Media + Public Relations</title>
+<link rel="icon" href="{Favicon}"/>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="global.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="shadow" class="container">
+
+   <!-- <nav class="navbar navbar-default navbar-fixed-top">
+    	<div class="container"> 
+        	<div class="navbar-header">
+            	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#NavBarMenu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button> 
+            	<a class="navbar-brand" href="#">KENT DAGNALL</a>
+            </div>
+			<div class="collapse navbar-collapse" id="NavBarMenu">
+                <ul class="nav navbar-nav">
+                    <li><a href="#"><img src="images/icons/icon-resume.png" height="46" width="46"/> RESUME</a></li>
+                    <li><a href="#"><img src="images/icons/icon-social-media.png" height="46" width="46"/> SOCIAL MEDIA</a></li>
+                    <li><a href="#"><img src="images/icons/icon-public-relations.png" height="46" width="46"/> PUBLIC RELATIONS</a></li>
+                    <li><a href="#"><img src="images/icons/icon-websites.png" height="46" width="46"/> WEBSITES</a></li>
+                </ul>
+    		</div>
+		</div>
+	</nav>-->
+      
+	<header id="main-header">
+       
+        <div class="container">   
+            <div class="row blue-bg">
+                <div class="col-xs-3 col-sm-4">   
+                &nbsp;             	
+                </div>
+                
+                <div class="col-xs-7 col-sm-4">
+                	<img src="images/header-bg.png" height="164" width="229" />
+                </div>
+                
+                <div class="col-xs-2 col-sm-4">
+                &nbsp;
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-4 col-sm-4">
+                	<img src="images/kent.png" height="197" width="200" class="portrait"/>
+                </div>
+                
+                <div class="col-xs-6 col-sm-4">
+                        <span>KENT DAGNALL</span>		
+                </div>
+                
+                <div class="col-xs-2 col-sm-4">
+                    <span><a href="tel://4044440911"><img src="images/icons/icon-phone.png" alt="Call Me" class="call-me" /></a></span> 
+                </div>
+            </div>
+        </div>
+
+	</header>
+    
+    <section>
+        <div class="container">
+        	<nav>
+            	<ul id="main-menu" class="nav nav-pills nav-stacked">
+                	<li><a href="resume.html"><img src="images/icons/icon-resume.png" height="46" width="46"/> RESUME</a></li>
+                    <li><a href="social-media.html"><img src="images/icons/icon-social-media.png" height="46" width="46"/> SOCIAL MEDIA</a></li>
+                    <li><a href="public-relations.html"><img src="images/icons/icon-public-relations.png" height="46" width="46"/> PUBLIC RELATIONS</a></li>
+                    <li><a href="portfolio.html"><img src="images/icons/icon-portfolio.png" height="46" width="46"/> PORTFOLIO</a></li>
+                </ul>
+            </nav>
+	    </div>
+	</section>
+  
+    <section>
+    	<div class="container">
+    	<article class="transparent-bg hobbies">
+        	<header>
+            	<img src="images/hobbies.png" height="75" width="229"/>
+            </header>
+            <div class="col-xs-4"><img src="images/icons/bikes.png" height="50" width="66"/><br>BIKES</div>
+            <div class="col-xs-4"><img src="images/icons/lake-life.png" height="50" width="66"/><br>LAKE LIFE</div>
+            <div class="col-xs-4"><img src="images/icons/cooking.png" height="50" width="66"/><br>COOKING</div>
+        </article>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+        &nbsp;
+        </div>
+    </footer>
+    
+</div>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

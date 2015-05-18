@@ -1,0 +1,257 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	font-family: 'AgencyBold';
+	src: url('fonts/AGENCYB.TTF');
+}
+@font-face{
+	font-family: 'AgencyReg';
+	src: url('fonts/AGENCYR.TTF');
+}
+@font-face{
+	font-family: 'GREEK';
+	src: url('fonts/GREEK.TTF');
+}
+body{
+	background: url(images/body-bg.png);
+	color: #369;
+}
+#shadow{
+	box-shadow: 5px -5px 20px #369;
+}
+.top-space{
+	padding-top:50px;
+}
+.container{
+  	border-radius: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+.white-bg{
+	background: #fff;
+}
+.blue-bg{
+	background: #369;
+	color: #fff;
+}
+.blue-bg p, .blue-bg h1, .blue-bg h2, .blue-bg h3, .blue-bg h4, .blue-bg a{
+	color: #fff;
+}
+.orange-bg{
+	background: #fc6;
+}
+.orange-bg p, .orange-bg h1, .orange-bg h2, .orange-bg h3, .orange-bg h4{
+
+}
+.center{
+	text-align: center;
+}
+.last{
+	border-bottom: solid 10px #fff;
+}
+.indent{
+	margin-bottom: 2em;
+}
+#main-header{
+	height: 222px;
+	overflow: hidden;
+}
+#main-header .jumbotron{
+	min-height: 173px;
+	border-radius: 0;
+	background: #336699 url(images/header-bg.png) no-repeat center .5em;
+	padding: 0;
+	margin: 0;
+}
+#main-header .row{
+	text-align:center;
+	overflow: visible;
+	color: #369;
+	margin: 0;
+}
+#main-header .blue-bg{
+	padding: 5px 0;
+}
+#main-header .portrait{
+	position: relative;
+	top: -147px;
+	float:right;
+}
+#main-header .call-me{
+	float:left;
+}
+@media (max-width: 480px){
+#main-header span{
+	font: bold 1.5em AgencyBold, verdana, sans-serif;
+	line-height: 2.2em;
+}
+}
+@media (min-width: 480px){
+#main-header span{
+	font: bold 2em AgencyBold, verdana, sans-serif;
+	line-height: 1.5em;
+}
+}
+.header-image{
+	text-align:center;
+	background: #369;
+}
+.navbar-default{ 
+	background: transparent;
+	font: bold 1.5em AgencyBold, verdana, sans-serif;
+	color: #369;
+	border: 0;
+}
+#NavBarMenu, .navbar-default .container{
+	background: url(images/body-bg.png);
+	border: 0;
+}
+.navbar-default .navbar-brand{
+	padding: 5px 45px;
+	font: bold 1.5em AgencyBold, verdana, sans-serif;
+	color: #369;
+}
+.nav > li > a {
+  padding: 0;
+}
+@media (min-width: 768px){
+.navbar-default .navbar-nav>li>a {
+	padding-right: 10px;
+	color: #369;
+}		
+}
+
+@media (max-width: 768px){
+.navbar-default .navbar-nav>li>a{
+   	background: #fc6;
+	color: #369;
+	margin: 0 10px 0 15px;
+	padding: 0 0 0 10px;
+	border-bottom: solid 10px #fff;
+}
+}
+nav #main-menu{
+	background: #fff;
+}
+nav #main-menu li a{
+	height: 50px;
+	color:#369;
+	background: #fc6;
+	margin-bottom: 10px;
+	padding-left: 10%;
+	padding-top:10px;
+	font: bold 1.5em AgencyBold, verdana, sans-serif;
+	color: #369;
+	border-radius: 0;
+}
+nav #main-menu li a img{
+	margin-top:-10px;
+}
+section header{
+	font: 1.2em Arial, Helvetica, sans-serif;
+	padding-top: 30px;
+}
+@media (max-width: 480px){
+section p, section header{
+	padding-left: .2em;
+}
+}
+article{
+	background: #ffffff;
+	color: #369;
+	font: 1.2em Arial, Helvetica, sans-serif;
+	padding-top: 15px;
+}
+article.transparent-bg{ 
+	background: transparent;
+}
+article header{
+	padding-top: 0;
+}
+article header img{
+	float:left;
+	margin: 0 20px 0 0;
+}
+article.hobbies{
+	padding-top: 1em;
+	height: 191px;
+	text-align: center;
+	font: bold 1.3em AgencyBold, verdana, sans-serif;
+	color: #369;
+}
+article.hobbies img{
+	float: none;
+	text-align: center;	
+}
+article .large-text{
+	font: bold 1.5em AgencyBold, verdana, sans-serif;
+}
+h1, h2, h3, h4{
+	font: bold 1.2em AgencyBold, verdana, sans-serif;
+	color: #369;
+}
+h1{
+	font-size: 3em;
+}
+h2{
+	font-size: 2.5em;
+}
+h3{
+	font-size: 2em;
+}
+h4{
+	font-size: 1.2em;
+}
+aside .container{
+	background: #FC6;
+	padding: 20px;
+}
+aside blockquote {
+  border: 0;
+  quotes: "\201C""\201D""\2018""\2019";
+  float:left;
+  z-index: 100;
+  padding: 0 6%;
+}
+blockquote:before {
+  color: #F93;
+  content: open-quote;
+  font-size: 8em;
+  line-height: 0.1em;
+  margin-left: -0.35em;
+  vertical-align: -.5em;
+  z-index: -100;
+}
+blockquote header {
+  display:block;
+  position:relative;
+  margin-top: -40px;
+}
+blockquote ul, article ul{
+	color: #369;
+	list-style-type: square;
+}
+blockquote footer{
+	text-align: right;
+	color: #369;
+}
+footer .container{
+	background: #336699 url(images/footer-bg.png) no-repeat center;
+	min-height: 220px;
+}
+.footer-text{
+	color: #428bca;
+	font-size: .7em;
+	text-align:center;	
+	margin-top: 200px;
+}
+.footer-text a:hover{
+	color: #F93;
+}
+#awards{
+	text-align:center;
+}
+.greek{
+	font-family: GREEK, verdana, sans-serif;
+}
