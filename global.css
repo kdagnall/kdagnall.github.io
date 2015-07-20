@@ -154,7 +154,7 @@ section header{
 }
 @media (max-width: 480px){
 section p, section header{
-	padding-left: .2em;
+	padding: 0 .5em;
 }
 }
 article{
