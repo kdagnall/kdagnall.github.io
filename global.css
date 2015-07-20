@@ -115,14 +115,17 @@ body{
 .nav > li > a {
   padding: 0;
 }
-@media (min-width: 768px){
+@media (min-width: 992px){
 .navbar-default .navbar-nav>li>a {
 	padding-right: 10px;
 	color: #369;
 }		
+.navbar-default .navbar-nav>li>a>span {
+	display:none;
+}	
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
 .navbar-default .navbar-nav>li>a{
    	background: #fc6;
 	color: #369;
